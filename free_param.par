@@ -1,0 +1,36 @@
+#General info
+pix = 3.00			#pixel size
+boxSize = 96			#box size
+num_part = 35			#total number of particles
+num_mod = 1			#Number of models
+snr = 0.20                      #Amplitude contrast:  0.20 for neg. stain; 0.07 for cryo
+radius = 40                     #Radius of your model (in pixels)
+shift = 5                       #Shift range (pixels)
+
+#EMAN2 specific input
+angular = 30			#EMAN2: Angular step for projection matching
+ts = 1				#EMAN2: Shift step size
+cutoff = -1	                #EMAN2: Std. dev. for cutoff
+
+#SPIDER specific input
+first_ring = 1			#SPIDER: first ring for AP SH
+last_ring = 35			#SPIDER: last ring for AP SH
+ray_step = 2			#SPIDER: ray step to speed up math
+mirror_check = 1		#SPIDER: mirror check in APSH
+
+#search_fspace specific input
+ncheck = 1000			#search_fspace: number of combinations of psi and theta to use for searching
+psi_step = 5			#search_fspace: Rotation degrees for searching psi
+
+#Free Hand test info
+cs = 2.2			#Spherical abberration of microscope:  T12 = 6.2; T20 = 2.2
+volt = 120			#Accelerating voltage
+freeHand_ang_search = 45	#Angular search used for generating free-hand plot
+tilt_ang = 15			#Tilt angle (i.e. tilt angle in microscope)
+calc = C			#P - phase residual; C - cross correlation plot
+min_res = 350			#Low resolution cutoff
+max_res = 30			#High resolution cutoff
+mag = 80000			#Magnification
+first = 1			#First particle
+last = 35			#Last particle
+incr = 8			#Processors to use

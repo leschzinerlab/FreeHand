@@ -1,0 +1,46 @@
+GFORTRAN module created from fastfreehand_v1_01.f90 on Wed Oct 16 21:43:48 2013
+If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () () ())
+
+()
+
+()
+
+()
+
+()
+
+(2 'otherfoms' 'otherfoms' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN) (UNKNOWN 0 ()) 0 0 () () 0 () ())
+3 'pres' 'otherfoms' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+FUNCTION) (REAL 4 ()) 4 0 (5 6 7 8 9 10 11 12 13 14) () 3 () ())
+12 'rmax2sq' '' 4 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY)
+(REAL 4 ()) 0 0 () () 0 () ())
+13 'nxby2' '' 4 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY) (
+INTEGER 4 ()) 0 0 () () 0 () ())
+8 'shy' '' 4 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY) (
+REAL 4 ()) 0 0 () () 0 () ())
+10 'ny' '' 4 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY) (
+INTEGER 4 ()) 0 0 () () 0 () ())
+11 'rmax1sq' '' 4 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY)
+(REAL 4 ()) 0 0 () () 0 () ())
+9 'nx' '' 4 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY) (
+INTEGER 4 ()) 0 0 () () 0 () ())
+14 'nyby2' '' 4 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY) (
+INTEGER 4 ()) 0 0 () () 0 () ())
+6 'test' '' 4 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DIMENSION
+DUMMY) (COMPLEX 8 ()) 0 0 () (2 EXPLICIT (CONSTANT (INTEGER 4 ()) 0 '1')
+(OP (INTEGER 4 ()) 0 PLUS (VARIABLE (INTEGER 4 ()) 0 13 ()) (CONSTANT (
+INTEGER 4 ()) 0 '1')) (CONSTANT (INTEGER 4 ()) 0 '1') (VARIABLE (
+INTEGER 4 ()) 0 10 ())) 0 () ())
+7 'shx' '' 4 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DUMMY) (
+REAL 4 ()) 0 0 () () 0 () ())
+5 'model' '' 4 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN DIMENSION
+DUMMY) (COMPLEX 8 ()) 0 0 () (2 EXPLICIT (CONSTANT (INTEGER 4 ()) 0 '1')
+(OP (INTEGER 4 ()) 0 PLUS (VARIABLE (INTEGER 4 ()) 0 13 ()) (CONSTANT (
+INTEGER 4 ()) 0 '1')) (CONSTANT (INTEGER 4 ()) 0 '1') (VARIABLE (
+INTEGER 4 ()) 0 10 ())) 0 () ())
+)
+
+('pres' 0 3 'otherfoms' 0 2)

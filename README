@@ -1,0 +1,41 @@
+These scripts are used for calculating the free-hand test for single particles in electron microscopy images, implementing protocols developed by Rosenthal &  Henderson, 2003, J. Mol. Biol.  
+
+Free-hand scripts were given to the Nogales lab from John Rubinstein at University of Toronto. 
+
+_________________________________________
+
+Executable files (compiled on ubuntu) provided by John Rubinstein:
+'lib/fastfreehand_v1_01.csh' - C-Sell script that calls 'fastfreehand_v1_01.exe,' to run free-hand test
+'lib/totsumstack.csh' - C-Shell script that calls 'totsumstack.exe' to create average free-hand plot image
+'lib/npo_CC.csh' - C-Shell script that calls CCP4 commands to create free-hand contour plot
+
+_________________________________________
+
+Higher-level scripts that wrap everything together:
+
+Particle extraction:
+'ctftilt.py' - For leginon micrographs with .box files, estimate defocus and angle with ctftilt.exe and extract particles.
+
+Assign euler angles & run free-hand test:
+'freeHand_wrapper.py' - Using EMAN2/Sparx scripts, assign euler angles and perform free-hand test
+'freeHand_from_spi.py' - Using SPIDER angular & shifts files, perform free-hand test
+'freeHand_from_Frealign.py' - Using FREALIGN refinement input files, perform free-hand test
+'freeHand_from_EMAN2_param.py - Using EMAN2 parameter file, perform free-hand test
+
+Calculate average free-hand plot:
+'freeHand_calc_plot.py' - Generate average free-hand plot and consolidate files into an output folder 
+
+Input parameter info:
+'free_param.par' - necessary input file for 'freeHand_wrapper.py' and 'freeHand_calc_plot.py' 
+
+Visualize per-particle angle assignment
+'lib/fhplot.m' - MATLAB script to plot individual particle free-hand angles
+
+_________________________________________
+
+Information on compiling 'fastfreehand' can be found in /compile
+
+_________________________________________
+
+Information for picking tilting particles and calcualting tilt angles can be found in /extract
+
